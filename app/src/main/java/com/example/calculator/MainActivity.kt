@@ -82,6 +82,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 binding.buttonDelete.setOnClickListener {
                     textNumbers.text = textNumbers.text.dropLast(1)
                 }
+                binding.buttonDelete.setOnLongClickListener {
+                    textNumbers.text = ""
+                    true
+                }
             }
         }
     }
