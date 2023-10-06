@@ -1,5 +1,5 @@
 ## Calculadora
-Calculadora básica com a similaridade da de IOS.
+Calculadora básica com a aparência da calculadora do iOS
 
 **Como usar**
 
