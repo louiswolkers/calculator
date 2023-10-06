@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -17,10 +16,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="36dp"
-            android:layout_marginBottom="36dp"
+            android:layout_marginBottom="100dp"
             android:maxLength="20"
             android:text=""
-            android:textColor="@color/white"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -40,7 +38,7 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_oval"
-                android:backgroundTint="@color/grey_"
+                android:backgroundTint="@color/grey"
                 android:src="@drawable/ic_backspace" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -50,7 +48,7 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_oval"
-                android:backgroundTint="@color/grey_"
+                android:backgroundTint="@color/grey"
                 android:text="("
                 android:textColor="@color/white"
                 android:textSize="20sp" />
@@ -62,7 +60,7 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_oval"
-                android:backgroundTint="@color/grey_"
+                android:backgroundTint="@color/grey"
                 android:text=")"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
@@ -74,10 +72,10 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_oval"
-                android:backgroundTint="@color/yellow"
-                android:text="%"
+                android:backgroundTint="@color/orange"
+                android:text="/"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="25sp" />
 
         </TableRow>
 
@@ -123,10 +121,10 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_oval"
-                android:backgroundTint="@color/yellow"
+                android:backgroundTint="@color/orange"
                 android:text="*"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow android:layout_weight="1">
@@ -171,10 +169,10 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_oval"
-                android:backgroundTint="@color/yellow"
+                android:backgroundTint="@color/orange"
                 android:text="-"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow android:layout_weight="1">
@@ -219,10 +217,10 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_oval"
-                android:backgroundTint="@color/yellow"
+                android:backgroundTint="@color/orange"
                 android:text="+"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow android:layout_weight="1">
@@ -256,10 +254,10 @@
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_oval"
-                android:backgroundTint="@color/yellow"
+                android:backgroundTint="@color/orange"
                 android:text="="
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="25sp" />
         </TableRow>
 
     </TableLayout>
